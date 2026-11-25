@@ -1,5 +1,4 @@
-void main() {
-    public abstract class Vehiculo {
+public abstract class Vehiculo {
 
         private final String matricula;
         private final double precioDia;
@@ -24,4 +23,3 @@ void main() {
             return getClass().getSimpleName() + " " + matricula;
         }
     }
-}
