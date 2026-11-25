@@ -1,6 +1,5 @@
-void main() {
-    import java.util.ArrayList;
-    import java.util.List;
+import java.util.ArrayList;
+import java.util.List;
 
     public class Main {
 
@@ -19,7 +18,6 @@ void main() {
                 System.out.printf("%s: %.2f €%n", v, precio);
                 total += precio;
             }
-            System.out.printf("Total por %d días: %.2f €%n", dias, total);
-        }
+         System.out.printf("Total por %d días: %.2f €%n", dias, total);
     }
 }
